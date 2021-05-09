@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Text Editor</title>
+</head>
+<body>
+    <h1>Text editor</h1>    
+    <div class="menu-section wrapper">
+        <div action="">
+            <div class="box-form">
+                <button onclick="addBoldTag('b')" class="bold-btn"><b>B</b></button>
+                <button onclick="addItalicTag('i')" class="italic-btn"><i>I</i></button>
+                <button onclick="addLiTag('li')" class="bullet-btn">bullet</button>
+                <button onclick="addOlLiTag('ol')" class="point-btn">Points</button>
+                <div class="text-area" contenteditable >
+                    <ol class="formList"></ol>
+                    <ul class="formList2"></ul>
+                </div>
+                <button class="add-btn" type="submit">Add</button>
+            </div>
+        </div>
+    </div>
+    <div class="textContent" >
+        
+    </div>
+
+    <script src="/main.js"></script>
+    <script src="/show.js"></script>    
+</body>
+</html>
